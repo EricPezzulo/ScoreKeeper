@@ -63,6 +63,7 @@ select:hover {
   margin-bottom: 0;
   padding: 0;
 }
+
 .core-info {
   display: flex;
   flex-direction: column;
@@ -127,4 +128,11 @@ button {
 .btn3:hover {
   border-top: 2px solid white;
   cursor: pointer;
+}
+
+.winner {
+  color: rgb(113, 255, 47);
+}
+.loser {
+  color: rgb(255, 74, 74);
 }

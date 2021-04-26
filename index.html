@@ -17,12 +17,11 @@
             <div class="core-info">
                 <p class='title'>Score Keeper</p>
                 <div class="score">
-                    <p class='player1Score' id='currentScoreP1'>0</p>
-                    <p>&nbsp;to&nbsp;</p>
-                    <p class='player2Score' id='currentScoreP2'>0</p>
+                    <p><span id='p1Display'>0</span><span> to </span><span id='p2Display'>0</span></p>
+
                 </div>
                 <p class = 'directions'>Use the buttons below to keep score.</p>
-                <form action='/nowhere' id='form'>
+                
                     <label for='round-select'>Playing to</label>
                     <select name='round-select' id='roundNum'>
                         <option value='5'>5</option>
@@ -39,8 +38,6 @@
                     <button class='btn2' id='player2btn'>+1 Player 2</button>
                     <button class='btn3' id ='reset'>Reset</button>
                 </div>
-                
-            </form>
             <script src='./script.js'></script>
         </div>
     </div>
